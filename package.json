@@ -1,0 +1,19 @@
+{
+  "name": "ristorante-con-fusion",
+  "version": "1.0.0",
+  "description": "learn bootstrap less and sass",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FariaParvinMegha/Ristorante-con-fusion.git"
+  },
+  "author": "Megha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FariaParvinMegha/Ristorante-con-fusion/issues"
+  },
+  "homepage": "https://github.com/FariaParvinMegha/Ristorante-con-fusion#readme"
+}
