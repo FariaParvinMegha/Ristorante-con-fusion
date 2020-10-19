@@ -47,17 +47,18 @@ body {
 
 .carousel {
   background: #512DA8;
+  margin: 20px 0px;
 }
 
 .carousel .carousel-item {
-  height: 300px;
+  height: 200px;
 }
 
 .carousel .carousel-item img {
   position: absolute;
   top: 0;
   left: 0;
-  min-height: 300px;
+  min-height: 200px;
 }
 
 #carouselbutton {
@@ -67,10 +68,6 @@ body {
   z-index: 1;
   background-color: #512DA8;
   color: #fff;
-}
-
-.modal {
-  color: #0f0f0f;
 }
 
 .modal-header {
@@ -84,5 +81,6 @@ body {
 
 .modal-body {
   background-color: #D1C4E9;
+  color: #0f0f0f;
 }
 /*# sourceMappingURL=styles.css.map */

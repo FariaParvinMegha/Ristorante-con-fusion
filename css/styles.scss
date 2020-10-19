@@ -4,7 +4,7 @@ $background-light: #9575CD;
 $background-pale: #D1C4E9;
 
 // Height variables
-$carousel-item-height: 300px;
+$carousel-item-height: 200px;
 
 @mixin zero-margin($pad-up-dn, $pad-left-right) {
 	margin:0px auto;
@@ -44,7 +44,7 @@ body{
 }
 
 .navbar-dark, .facts-card {
-     background-color: $background-dark;
+    background-color: $background-dark;
 }
 
 .tab-content {
@@ -56,6 +56,7 @@ body{
 
 .carousel {
     background:$background-dark;
+    margin: 20px 0px;
 
     .carousel-item {
         height: $carousel-item-height;
@@ -63,7 +64,7 @@ body{
             position: absolute;
             top: 0;
             left: 0;
-            min-height: 300px;
+            min-height: 200px;
         }
     }
 }
@@ -77,10 +78,6 @@ body{
     color: #fff;
 }
 
-.modal{
-  color: #0f0f0f;
-}
-
 .modal-header {
     background-color: $background-dark;
     color: floralwhite;
@@ -89,6 +86,7 @@ body{
     }
 }
 
- .modal-body{
+.modal-body {
     background-color: $background-pale;
- }
+    color: #0f0f0f;
+}
